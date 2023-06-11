@@ -14,6 +14,7 @@ import 'package:zero_app/shared/network/remote/dio_helper.dart';
 import 'layout/home_layout/home_layout.dart';
 import 'modulus/login_screen/login_screen.dart';
 import 'modulus/on_boarding/on_boarding.dart';
+import 'modulus/order_tracker/order_tracker.dart';
 import 'modulus/payment_screen/payment_screen.dart';
 
 Future<void> main() async {
@@ -79,6 +80,7 @@ class MyApp extends StatelessWidget {
                     CartScreen.routeName: (context) => const CartScreen(),
                     PaymentScreen.routeName: (context) => const PaymentScreen(),
                     EditProfile.routeName: (context) => const EditProfile(),
+                    OrderTracker.routeName: (context) => const OrderTracker(),
                   },
                 );
               },
